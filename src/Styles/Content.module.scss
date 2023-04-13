@@ -20,8 +20,9 @@
   width: 100%;
 }
 .card {
+  position: inherit;
   margin: 0 auto;
-
+  text-align: center;
   margin-top: 10vh;
   width: 160px;
   height: 160px;
@@ -32,3 +33,6 @@
   -webkit-box-shadow: 10px 10px 9px 0px rgba(245, 245, 245, 0.75);
   -moz-box-shadow: 10px 10px 9px 0px rgba(245, 245, 245, 0.75);
 }
+// #card-image {
+//   position: relative;
+// }

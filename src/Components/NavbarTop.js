@@ -3,6 +3,7 @@ import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import NavDropdown from "react-bootstrap/NavDropdown";
+import Button from "react-bootstrap/Button";
 
 function NavbarTop() {
   return (
@@ -13,7 +14,7 @@ function NavbarTop() {
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
             <Nav.Link href="#home">Start</Nav.Link>
-            <Nav.Link href="#link">Jak działamy?</Nav.Link>
+            <Nav.Link href="#whyus">Jak działamy?</Nav.Link>
             <NavDropdown title="Dropdown" id="basic-nav-dropdown">
               <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
               <NavDropdown.Item href="#action/3.2">
@@ -27,6 +28,7 @@ function NavbarTop() {
             </NavDropdown>
           </Nav>
         </Navbar.Collapse>
+        <Button variant="success">Zaloguj się</Button>
       </Container>
     </Navbar>
   );

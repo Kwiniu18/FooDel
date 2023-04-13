@@ -7,13 +7,20 @@ function Content() {
   const cards = [
     {
       image_url: "",
-      card_name: "produkt",
+      card_name: "",
     },
     {
-      card_name: "produkt2",
+      image_url: "",
+      card_name: "",
     },
     {
       card_name: "produkt3",
+    },
+    {
+      card_name: "produkt4",
+    },
+    {
+      card_name: "produkt5",
     },
   ];
 
@@ -29,7 +36,10 @@ function Content() {
         <Row>
           {cards.map((e) => (
             <Col>
-              <div className="card">{e.card_name}</div>
+              <div className="card">
+                <img src={e.image_url} width={"100%"}></img>
+                {/* {e.card_name} */}
+              </div>
             </Col>
           ))}
         </Row>
