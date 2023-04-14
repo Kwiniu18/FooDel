@@ -19,7 +19,7 @@
 .content-cards {
   width: 100%;
 }
-.card {
+.cards {
   position: inherit;
   margin: 0 auto;
   text-align: center;
@@ -33,6 +33,11 @@
   -webkit-box-shadow: 10px 10px 9px 0px rgba(245, 245, 245, 0.75);
   -moz-box-shadow: 10px 10px 9px 0px rgba(245, 245, 245, 0.75);
 }
-// #card-image {
-//   position: relative;
-// }
+#card-img {
+  margin: auto;
+  margin-top: 15px;
+}
+
+.content-row {
+  width: 100%;
+}

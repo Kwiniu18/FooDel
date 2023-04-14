@@ -14,7 +14,7 @@ function NavbarTop() {
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
             <Nav.Link href="#home">Start</Nav.Link>
-            <Nav.Link href="#whyus">Jak działamy?</Nav.Link>
+            <Nav.Link href="#whyus">O nas</Nav.Link>
             <NavDropdown title="Dropdown" id="basic-nav-dropdown">
               <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
               <NavDropdown.Item href="#action/3.2">
